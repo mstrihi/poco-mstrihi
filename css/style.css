@@ -7,7 +7,12 @@ h1, h2, h3, h4, h5, h6{
 .my-custom-font{
     font-family: 'Roboto Mono', monospace;
 }
-
+h1{
+    text-transform: uppercase;
+    text-decoration: aqua underline;
+    text-shadow: 2px 2px #ff0000;
+    letter-spacing: 2px;
+}
 pre code {
     font-family: 'Roboto Mono', monospace;
     background-color: #eee;
