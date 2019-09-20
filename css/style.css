@@ -20,3 +20,12 @@ pre code {
     display: block;
     padding: 20px;
   }
+.size{
+    font-size: 1em;
+}
+.size strong{
+    font-size: 0.2em ;
+}
+.size p:nth-child(2){
+    font-size: 2em ;
+}
