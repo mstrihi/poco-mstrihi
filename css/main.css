@@ -1,0 +1,36 @@
+html, body{
+    background: #f7f7f7;
+    margin: 0;
+    padding: 50px 0;
+}
+main{
+    background: #ffffff;
+    width: 1120px;
+    margin: 0 auto;
+    text-align: center;
+    color:#666;
+    padding: 40px;
+}
+h1{
+    margin-bottom: 40px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+ul li{
+    display: inline-block;
+    width: 40%;
+    padding: 0 5%;
+    float: left;
+    margin-bottom: 40px;
+}
+.button{
+    padding: 10px 40px;
+    border: 1px solid #666;
+    text-decoration: none;
+    color:#666;
+    display: inline-block;
+    margin-bottom: 20px;
+}
