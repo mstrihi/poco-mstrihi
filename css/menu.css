@@ -13,6 +13,7 @@ ul
   left: 0;
   width: 600px;
   height: 80px;
+
   display: flex;
   justify-content: space-between;
 
@@ -31,12 +32,15 @@ ul li a{
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
+  border-top:2px solid transparent;
+  border-bottom:2px solid transparent;
+
 }
 ul li a:hover{
    color:#ffffff;
 }
-ul li.active a{
+ul li.active a, ul li a:active{
   color:#d9463e;
-  border-top:3px solid #d9463e;
-  border-bottom:3px solid #d9463e;
+  border-top:2px solid #d9463e;
+  border-bottom:2px solid #d9463e;
 }

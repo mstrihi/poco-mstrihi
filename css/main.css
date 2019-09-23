@@ -3,9 +3,12 @@ html, body{
     margin: 0;
     padding: 50px 0;
 }
+*{
+    box-sizing: border-box;
+}
 main{
     background: #ffffff;
-    width: 1120px;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     color:#666;
@@ -17,14 +20,17 @@ h1{
 ul {
     margin: 0;
     padding: 0;
-
 }
 ul li{
     display: inline-block;
-    width: 40%;
-    padding: 0 5%;
-    float: left;
+    width: 42%;
+    margin: 2rem 3rem;
     margin-bottom: 40px;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    display: block;
 }
 .button{
     padding: 10px 40px;
