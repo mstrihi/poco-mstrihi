@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>sticky footer</title>
+    <link rel="stylesheet" href="css/404.css " />
+  </head>
+  <body>
+    <header>
+      <h1>404 page not found</h1>
+    </header>
+    <main>
+            <h1>Sticky Footer with Negative Margin 1</h1>
+            <p><button id="add">Add Content</button></p>
+            <div class="push"></div>
+              </main>
+    <footer>
+        &copy; mohammad almestarihi
+    </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>    <script>
+        $("#add").on("click", function() {
+        $("<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>").insertBefore(".push");
+        });
+    </script>
+  </body>
+</html>

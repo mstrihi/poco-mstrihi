@@ -1,0 +1,38 @@
+body {
+  display: flex;  
+  flex-flow: row wrap;
+  height: 100vh;
+  background-color: #fff;
+  color: #444;
+  
+  }
+body > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+header {
+  background: red;
+}
+
+main {
+  position: relative;
+  background: lightgrey;
+}
+
+aside {
+  background: blue;
+}
+aside ul li a {
+  color: #fff;
+}
+
+@media all and (min-width: 600px) {
+  aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+  main    { flex: 3 0px; }
+  aside { order: 1; } 
+  main    { order: 2; }
+}
